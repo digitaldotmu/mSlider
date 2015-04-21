@@ -1,0 +1,8 @@
+ul.mSlider {width:100%;overflow: hidden;position: relative;}
+	.mSliderMask {width:100%;position: absolute;top:0;left:0;}
+		ul.mSlider li {width:100%;position: absolute;top:0;left:0;}
+		
+	.mSliderPrev, .mSliderNext {display: block;position: absolute;cursor: pointer;padding: 5px;background: #333;color:#fff;opacity:0.4;}
+    .mSliderPrev:hover, .mSliderNext:hover {opacity:0.8;}
+	.mSliderPrev {left:0;bottom:10px;}
+	.mSliderNext {right:0;bottom:10px;}

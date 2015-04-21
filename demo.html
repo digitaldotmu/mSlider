@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<title>DEMO</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	
+	<style>
+        body {font-family: arial, sans-serif;}    
+		    #slider {margin: 50px auto;}
+	</style>
+	
+	<script src="jquery.js"></script>
+	<script src="mSlider.0.0.1.js"></script>
+	
+	<script>
+
+		$(function(){
+			$('#slider').mSlider({
+				width: 800,
+				height: 300,
+				auto: true,
+				orientation: 'h',
+				controls: true,
+				startSlide: 0,
+				onSliderStart: function(){},
+				onSlideChange: function(slide, index){
+					if(index == 2){
+						//alert('Third slide!');
+					}
+				},
+				onSliderEnd: function(){
+					//alert('Hey, this is the last slide');
+				}
+			});
+		});
+	</script>
+	
+	</head>
+	<body>
+		<ul id="slider" class="mSlider">
+			<li><img src="img/1.jpeg" alt=""></li>
+			<li><img src="img/2.jpeg" alt=""></li>
+			<li><img src="img/3.jpeg" alt=""></li>
+			<li><img src="img/4.jpeg" alt=""></li>
+		</ul>
+	</body>
+</html>
