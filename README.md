@@ -3,7 +3,7 @@ Lightweight jQuery slider that just works!
 
 Usage:
 
-  <script src="jquery.js"></script>
+    <script src="jquery.js"></script>
 	<script src="mSlider.0.0.1.js"></script>
 	
 	<script>
@@ -24,3 +24,5 @@ Usage:
 			});
 		});
 	</script>
+    
+    http://matilis.mu
