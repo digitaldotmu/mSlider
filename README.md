@@ -24,5 +24,12 @@ Usage:
 			});
 		});
 	</script>
+	
+	<ul id="slider" class="mSlider">
+		<li><img src="img/1.jpeg"></li>
+		<li><img src="img/2.jpeg"></li>
+		<li><img src="img/3.jpeg"></li>
+		<li><img src="img/4.jpeg"></li>
+	</ul>	
     
 http://matilis.mu
