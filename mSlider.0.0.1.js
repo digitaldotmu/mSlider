@@ -1,6 +1,6 @@
 /**
  * jQuery mSlider Plugin 0.0.1
- * @homepage http://matilis.mu
+ * @homepage https://github.com/MatilisDigital/mSlider
  * (c) 2015, Valéry Ambroise
  */
 
