@@ -34,7 +34,7 @@ Lightweight jQuery slider that just works!
 
 ## DEMO   
 
-[http://matilis.mu/labs/mslider/demo.html]
+http://matilis.mu/labs/mslider/demo.html
 
 ## Credits
 
